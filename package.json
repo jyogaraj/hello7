@@ -1,20 +1,26 @@
 {
-  "name": "hello7",
-  "version": "1.0.0",
-  "main": "start.js",
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jyogaraj/hello7.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "author": "yogaraj",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jyogaraj/hello7/issues"
-  },
-  "homepage": "https://github.com/jyogaraj/hello7#readme",
-  "description": ""
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
