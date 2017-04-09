@@ -1,0 +1,19 @@
+{
+  "name": "hello7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyogaraj/hello7.git"
+  },
+  "author": "yogaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyogaraj/hello7/issues"
+  },
+  "homepage": "https://github.com/jyogaraj/hello7#readme"
+}
