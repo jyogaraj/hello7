@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 
 app.get('/', function(request, response) {
   response.render('pages/index', { title: 'Hey Hey Hey!', message: 'Yo Yo'} );
-  //response.send('Yoga');
+  response.send('Yoga');
 });
 
 app.listen(app.get('port'), function() {
